@@ -1,4 +1,4 @@
-/*  Custom margin, More styling for section-title */
+/* Pseudo Classes on anchor elements */
 
 html {
   scroll-behavior: smooth;
@@ -55,9 +55,21 @@ h6 {
   font-weight: var(--font-weight-bold);
 }
 
-a {
+a:link {
   color: var(--text-color);
   text-decoration: none;
+}
+
+a:visited {
+  font-style: italic;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  background-color: var(--color-light-grey);
 }
 
 .visually-hidden {
